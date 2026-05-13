@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', https://github.com/spandana7803/GradleInternal.git'
+                git branch: 'master', 'https://github.com/spandana7803/GradleInternal.git'
             }
         }
 
@@ -24,7 +24,6 @@ pipeline {
             }
         }
 
-        
         
        
         stage('Run Application') {
